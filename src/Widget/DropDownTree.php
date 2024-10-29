@@ -92,17 +92,17 @@ use Riesenia\Kendo\Widget\Base;
  * @method ?string getRounded() Get the border-radius of the widget.
  * @method $this setSize(?string $value) The size of the widget.
  * @method ?string getSize() Get the size of the widget.
- * @method $this setChange(JavascriptFunction? $event) The event handler that will be triggered when the value of the widget is changed.
+ * @method $this setChange(?JavascriptFunction $event) The event handler that will be triggered when the value of the widget is changed.
  * @method JavascriptFunction|null getChange() Get the event handler that will be triggered when the value of the widget is changed.
- * @method $this setClose(JavascriptFunction? $event) The event handler that will be triggered when the popup is closed.
+ * @method $this setClose(?JavascriptFunction $event) The event handler that will be triggered when the popup is closed.
  * @method JavascriptFunction|null getClose() Get the event handler that will be triggered when the popup is closed.
- * @method $this setDataBound(JavascriptFunction? $event) The event handler that will be triggered when the widget items are bound to data from the widgets data source.
+ * @method $this setDataBound(?JavascriptFunction $event) The event handler that will be triggered when the widget items are bound to data from the widgets data source.
  * @method JavascriptFunction|null getDataBound() Get the event handler that will be triggered when the widget items are bound to data from the widgets data source.
- * @method $this setFiltering(JavascriptFunction? $event) The event handler that will be triggered when the widget is about to filter the data source.
+ * @method $this setFiltering(?JavascriptFunction $event) The event handler that will be triggered when the widget is about to filter the data source.
  * @method JavascriptFunction|null getFiltering() Get the event handler that will be triggered when the widget is about to filter the data source.
- * @method $this setOpen(JavascriptFunction? $event) The event handler that will be triggered when the popup is opened.
+ * @method $this setOpen(?JavascriptFunction $event) The event handler that will be triggered when the popup is opened.
  * @method JavascriptFunction|null getOpen() Get the event handler that will be triggered when the popup is opened.
- * @method $this setSelect(JavascriptFunction? $event) The event handler that will be triggered when an item from the popup is selected. When checkboxes are enabled the event will be triggered when the a item is deselected.
+ * @method $this setSelect(?JavascriptFunction $event) The event handler that will be triggered when an item from the popup is selected. When checkboxes are enabled the event will be triggered when the a item is deselected.
  * @method JavascriptFunction|null getSelect() Get the event handler that will be triggered when an item from the popup is selected.
  */
 class DropDownTree extends Base
